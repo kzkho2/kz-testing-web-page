@@ -1,0 +1,73 @@
+/*
+	Document Name: styles.css 
+	Modified By: Khoo Kang Zheng
+	Modified Date: 2024-Feb-01
+*/
+
+/* ----------------------------------------------------------------------------------------------------*/
+/* Linking to Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* ----------------------------------------------------------------------------------------------------*/
+/* Add CSS styles for Body */
+body 
+{
+    font-family: Times New Roman, serif;
+	background: linear-gradient(to bottom, #00000F, #07B2F6); /* radial-gradient(black, blue); */ 
+    /* background-color: rgb(7,178,246); */ /* #f2f2f2; */
+}
+
+/* ----------------------------------------------------------------------------------------------------*/
+/* Add CSS styles for the container */
+.image-container-01 
+{
+	width: 150px; /* Set the desired width of the container */
+	height:50px; /* Set the desired height of the container */
+	overflow: hidden; /* Hide the overflowing content */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #FFFFFF; /* Add a border for visual clarity */
+	border-radius: 10px; /* Add rounded corners to the container */
+}
+
+/* Add CSS styles for the image */
+.image-container-01 img 
+{
+	width: 100%; /* Make the image fill the container */
+	height: 100%; /* Make the image fill the container */
+	object-fit: cover; /* Crop the image to cover the container */
+}
+
+/* ----------------------------------------------------------------------------------------------------*/
+/* Add CSS styles for Headline 1 */
+h1 
+{
+    color: #FFFFFF;
+}
+
+/* Add CSS styles for Headline 1 Image */
+/* h1 img 
+{
+	width: 200px; Adjust the width as needed
+	height: auto; Maintain the aspect ratio
+	border: 2px solid #333; Add a 2px solid border with a color
+	border-radius: 200px; Add a 10px border-radius for rounded corners
+} */
+
+/* ----------------------------------------------------------------------------------------------------*/
+/* Add CSS styles for creating container */
+/* .container 
+{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+} */
+
+/* ----------------------------------------------------------------------------------------------------*/
+/* Add CSS styles for creating line */
+/* .line 
+{
+	display: block;
+	margin-bottom: 10px; 
+} */
